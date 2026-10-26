@@ -19,12 +19,14 @@ function generate_gun(cost, level, force_unshuffle)
 	end
 
 	if Random(0, 100) > 00 then
-		for i, spell in pairs(extra_spells) do
-			if Random(0, 100) > 20 then
-				-- AddGunAction(entity_id, 'MANA_REDUCE')
-				AddGunAction(entity_id, spell)
-				break
-			end
-		end
+        local spell = extra_spells[Random(1, #extra_spells)]
+        AddGunAction(entity_id, spell)
+		-- for i, spell in pairs(extra_spells) do
+			-- if Random(0, 100) > 20 then
+				-- -- AddGunAction(entity_id, 'MANA_REDUCE')
+				-- AddGunAction(entity_id, spell)
+				-- break
+			-- end
+		-- end
 	end
 end
