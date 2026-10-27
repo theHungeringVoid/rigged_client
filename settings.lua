@@ -39,16 +39,16 @@ mod_settings = {
 		id = 'more_mana.CHAINSAW',
 		ui_name = 'Chainsaw',
 		ui_description = 'The goat',
-		value_default = true,
-		scope = MOD_SETTING_SCOPE_NEW_GAME,
+		value_default = false,
+		scope = MOD_SETTING_SCOPE_RUNTIME,
 		change_fn = mod_setting_change_callback, -- Called when the user interact with the settings widget.
 	},
 	{
 		id = 'more_mana.MANA_REDUCE',
 		ui_name = 'Add Mana!!!',
 		ui_description = 'everyone loves mana',
-		value_default = true,
-		scope = MOD_SETTING_SCOPE_NEW_GAME,
+		value_default = false,
+		scope = MOD_SETTING_SCOPE_RUNTIME,
 		change_fn = mod_setting_change_callback, -- Called when the user interact with the settings widget.
 	},
 	{
