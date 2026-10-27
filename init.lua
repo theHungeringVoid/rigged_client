@@ -1,7 +1,7 @@
 dofile_once('data/scripts/lib/utilities.lua')
 
-ModLuaFileAppend('data/scripts/gun/procedural/gun_procedural.lua', 'mods/rigged_client/files/add_mana.lua')
-ModLuaFileAppend('data/scripts/gun/procedural/gun_procedural_better.lua', 'mods/rigged_client/files/add_mana.lua')
+ModLuaFileAppend('data/scripts/gun/procedural/gun_procedural.lua', 'mods/rigged_client/files/add_spells.lua')
+ModLuaFileAppend('data/scripts/gun/procedural/gun_procedural_better.lua', 'mods/rigged_client/files/add_spells.lua')
 
 -- all functions below are optional and can be left out
 
