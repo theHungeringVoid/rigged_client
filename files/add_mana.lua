@@ -33,7 +33,7 @@ function generate_gun(cost, level, force_unshuffle)
 	-- table.insert(extra_spells, 'CHAINSAW')
 	-- end
 
-	if Random(0, 100) > 00 then
+	if Random(0, 100) > 95 then
 		local spell = extra_spells[Random(1, #extra_spells)]
 		AddGunAction(entity_id, spell)
 
